@@ -1,0 +1,8 @@
+# For tar.gz file
+# Compression
+tar -zcvf xxxx.tar.gz directory
+# Decompression
+tar -zxvf xxxx.tar.gz
+
+# Don't kill the background job even if the ssh connection killed
+nohup ~
