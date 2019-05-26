@@ -6,3 +6,6 @@ tar -zxvf xxxx.tar.gz
 
 # Don't kill the background job even if the ssh connection killed
 nohup ~
+
+# Check the file size
+du
