@@ -9,3 +9,15 @@ nohup ~
 
 # Check the file size
 du
+
+# Install a library by anaconda
+~/.pyenv/versions/anaconda[version]/bin/anaconda search -t conda [library name]
+~/.pyenv/versions/anaconda3-4.0.0/bin/anaconda show [library name]
+if we searched pyquery, we may get "conda install --channel https://conda.anaconda.org/auto pyquery" then write as below.
+~/.pyenv/versions/anaconda-4.0.0/bin/conda install --channel https://conda.anaconda.org/auto pyquery
+
+# Uninstall a library by anacodna
+conda uninstall [library name]
+
+# Update a library by anaconda
+conda upgrade [library name]
