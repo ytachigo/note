@@ -1,3 +1,14 @@
+# Data analysis
+# Combine data sets
+cat ~ ~ > ~
+paste ~ ~ > ~
+# Numbering by cat command
+cat -n ~
+cat -b ~ (don’t include	blank lines)
+# pa
+# Delete blank lines
+sed '/^$/d' ~
+
 # For tar.gz file
 # Compression
 tar -zcvf xxxx.tar.gz directory
