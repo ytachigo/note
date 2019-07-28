@@ -32,3 +32,6 @@ conda uninstall [library name]
 
 # Update a library by anaconda
 conda upgrade [library name]
+
+# Open tensorboard
+tensorboard --logdir=~
