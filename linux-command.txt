@@ -8,6 +8,7 @@ cat -b ~ (don’t include	blank lines)
 # pa
 # Delete blank lines
 sed '/^$/d' ~
+sed '/^[[:blank:]]*$/d' ~ # including tab and space
 
 # For tar.gz file
 # Compression
