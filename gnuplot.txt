@@ -1,0 +1,3 @@
+# 3D plot
+set pm3d map
+splot 'meta_2_twod.pmf'
