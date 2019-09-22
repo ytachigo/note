@@ -1,0 +1,3 @@
+# Initialize 
+tf.reset_default_graph() # Graphs
+tf.initialize_all_variables() # Variables
