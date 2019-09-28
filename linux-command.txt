@@ -22,6 +22,12 @@ nohup ~
 # Check the file size
 du
 
+# Delete a managed file
+git rm [file neme]
+
+# Delete a latest commit
+git reset --hard HEAD^
+
 # Install a library by anaconda
 ~/.pyenv/versions/anaconda[version]/bin/anaconda search -t conda [library name]
 ~/.pyenv/versions/anaconda3-4.0.0/bin/anaconda show [library name]
