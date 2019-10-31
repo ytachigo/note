@@ -5,7 +5,6 @@ paste ~ ~ > ~
 # Numbering by cat command
 cat -n ~
 cat -b ~ (don’t include	blank lines)
-# pa
 # Delete blank lines
 sed '/^$/d' ~
 sed '/^[[:blank:]]*$/d' ~ # including tab and space
@@ -21,6 +20,10 @@ nohup ~
 
 # Check the file size
 du
+
+# Count files or directories
+find /xxxx/ -type f | wc -l
+find /xxxx/ -type d | wc -l
 
 # Delete a managed file
 git rm [file neme]
