@@ -22,6 +22,9 @@ nohup ~
 # Check the file size
 du
 
+# Check the differences between two files
+diff xxx0.txt xxx1.txt (-q: only differ or not, -s: only identical or not)
+
 # Find files
 find . -name 'xxxx'
 
